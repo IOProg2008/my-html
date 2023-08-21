@@ -103,3 +103,12 @@ h2{
 	font-family: 'Fira Sans', sans-serif;
 }
 
+.content{
+	position: relative;
+	border-radius: 10px;
+	left:200px;
+	bottom: 690px;
+	background-color:#000000;
+}
+
+
