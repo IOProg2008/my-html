@@ -1,49 +1,115 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-		<link href="style.css" rel="stylesheet">
-        <meta charset = "UTF-8">
-        <title>home</title>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      <link href="style.css" rel="stylesheet">
+      <meta charset = "UTF-8">
+      <title>home</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <div class="cup" style="width:100%;height:5%;border:1px solid #000;">
+      <div class="container-fluid"style="width:100%;height:5%;border:1px solid #000;">
+        <div class="row">
+          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+              <a href=""><h2>about</h2></a>
+          </div>
+          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+            <a href=""><h2>projects</h2></a>
+          </div>
+          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+            <a href=""><h2>a&q</h2></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
     </head>
-    <body bgcolor="#708090">
-    	<div class="cup" style="width:1920px;height:50px;border:1px solid #000;">
-    		<div class="abaut">
-				<a href=""><h2>Abaut</h2></a>
-			</div>
+   <body>
+      <style>
+        a{
+          text-decoration: none;
+          color:#FFFFFF;
+        }
 
-			<div class="Projects">
-				<a href=""><h2>Projects</h2></a>
-			</div>
+        a:hover{
+           color: #C0C0C0;
+        }
+        .cup{
+            background-color: black;
+        }
+        .img{
+          position: relative;
+          top:20px;
+          border:15px solid #000;
+          border-radius: 10px;
+        }
+        .contacts{
+          position: relative;
+          bottom: 350px;
+          left: 20px;
+          color:#FFFFFF
+        }
+        .Github{
+           position: relative;
+           bottom:350px; 
+           left:20px;
+           color:#FFFFFF
+        }
+        .Contacts_blok{
+          width:61%;
+          height:400px;
+          border:1px solid #000;
+          border-radius: 10px;
+          position: relative;
+          top:40px;
+          background-color: black;
 
-			<div class="aq">
-				<a href=""><h2>A&q</h2></a>
-			</div></div>
+        }
+        .content{
+          position: relative;
+          bottom: 660px;
+          right: 150px;
+          border-radius: 10px;
+          background-color: black;
+        }
+        .icon{
+          position: relative;
+          bottom: 3px;
+        }
+        body{
+          background-color: #708090;
+        }
+      </style>
 
-		<div class="styleImg" >
-			<div class="userPic">
-				<img src="https://media.discordapp.net/attachments/1120281015647215647/1142469004984860733/avatar.jpg"></div></div>
+       <div class="container-fluid">
+        <div class="row">
+           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+             <img src="https://media.discordapp.net/attachments/1120281015647215647/1142469004984860733/avatar.jpg" class="img">
+           </div>
+        </div>
+      </div>
 
-		<div class="styleUsername">		
-			<div class="username">
-				<h2>Ioprog</h2></div></div>
+      <div class="container-fluid">
+        <div class="row">
+           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <div class="Contacts_blok"></div>
+             <h2 class="contacts" >Contacts</h2>
+            <a href="https://github.com/IOProg2008" target="_blank"><h2 class="Github">Github <img src="gitIcon.png" class="icon"></h2></a>
+           </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-1 col-sm-1 col-md-2 col-lg-2">
+            <div class="content" style="width:1000%;height:30400%;border:1px solid #000;"></div>
+          </div>
+        </div>
+      </div>
 
 
-		<div class="Contacts">		
-			<div class="contacts_text">
-				<h2>Contacts</h2></div>
 
-		<div class="github">
-			<a href="https://github.com/IOProg2008" target="_blank"><h2>Github</h2></a></div>
-
-		<div class="githubImg">
-			<img src="gitIcon.png"></div></div>
-
-		<div class="content" style="width:1600px;height:717px;border:1px solid #000;">
-
-		</div>	
-
-	</body>
-			
+  </body>
+      
 </html>
 
