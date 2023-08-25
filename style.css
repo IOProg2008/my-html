@@ -1,0 +1,41 @@
+a{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #C0C0C0;
+}
+.header{
+   background-color: black;
+}
+.footer{
+  position: relative;
+  top: 425px;
+}
+.frontend{
+  position: relative;
+  top: 60px;
+  left: 500px;
+  color: #808080;
+}
+.backend{
+  position: relative;
+  top: 60px;
+  left: 500px;
+  color: #808080;
+}
+.name{
+  position: relative;
+  left: 20px;
+}
+.icon{
+  position: relative;
+  bottom: 17px;
+}
+.member{
+  position: relative;
+  top:63px;
+
+}
